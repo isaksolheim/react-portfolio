@@ -1,0 +1,27 @@
+.skills-container {
+  text-align: center;
+  h1 {
+    font-size: 25px;
+  }
+  .skills-category {
+    display: flex;
+    flex-flow: row wrap;
+
+    .skills-card {
+      margin: auto;
+      margin-top: 20px;
+      width: 100px;
+      padding-top: 10px;
+      box-shadow: 0px 0px 7px;
+      border-radius: 1px;
+      text-align: center;
+      .skills-card-image {
+        width: 60px;
+        height: 60px;
+      }
+      .skills-card-text {
+        font-size: 15px;
+      }
+    }
+  }
+}
