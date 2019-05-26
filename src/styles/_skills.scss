@@ -4,11 +4,9 @@
     font-size: 25px;
   }
   .skills-category {
-    display: flex;
-    flex-flow: row wrap;
-
     .skills-card {
-      margin: auto;
+      display: inline-block;
+      margin: 10px;
       margin-top: 20px;
       width: 100px;
       padding-top: 10px;
