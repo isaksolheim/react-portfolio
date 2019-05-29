@@ -10,10 +10,10 @@ class Navbar extends React.Component {
       navbar.className = 'navbar';
     }
     var button = document.getElementById('nav-button');
-    if (button.innerHTML === '<i class="fa fa-bars"></i>') {
-      button.innerHTML = '<i class="fa fa-times"></i>';
+    if (button.innerHTML === '<i class="fa fa-bars fa-2x"></i>') {
+      button.innerHTML = '<i class="fa fa-times fa-2x"></i>';
     } else {
-      button.innerHTML = '<i class="fa fa-bars"></i>';
+      button.innerHTML = '<i class="fa fa-bars fa-2x"></i>';
     }
   }
 
@@ -23,7 +23,7 @@ class Navbar extends React.Component {
         <div className="navbar" id="navbar">
           <img src="logo-t.png" alt="logo" className="nav-logo" />
           <button onClick={this.dropdown} className="nav-button" id="nav-button">
-            <i className="fa fa-bars"/>
+            <i className="fa fa-bars fa-2x"/>
           </button>
           <div className="nav-items">
           <Link 

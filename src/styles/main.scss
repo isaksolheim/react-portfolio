@@ -4,6 +4,19 @@ html, body {
   margin: 0;
 }
 
+// colors
+$colors: (
+  primary: #1098F7,
+  primary-light: lighten(#1098F7, 40%),
+  primary-dark: darken(#1098F7, 40%),
+  secondary: #DCF763,
+  accent: #435058,
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
 //@import '../styles/xxx';
 @import '../styles/landing';
 @import '../styles/about';
