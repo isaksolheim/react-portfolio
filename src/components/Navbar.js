@@ -1,0 +1,73 @@
+import React from 'react';
+import { Link } from 'react-scroll';
+
+class Navbar extends React.Component {
+  dropdown = () => {
+    var navbar = document.getElementById('navbar');
+    if (navbar.className === 'navbar') {
+      navbar.className += ' responsive';
+    } else {
+      navbar.className = 'navbar';
+    }
+    var button = document.getElementById('nav-button');
+    if (button.innerHTML === '<i class="fa fa-bars"></i>') {
+      button.innerHTML = '<i class="fa fa-times"></i>';
+    } else {
+      button.innerHTML = '<i class="fa fa-bars"></i>';
+    }
+  }
+
+  render() {
+    return(
+      <div className="navbar-container" id="home">
+        <div className="navbar" id="navbar">
+          <img src="logo-t.png" alt="logo" className="nav-logo" />
+          <button onClick={this.dropdown} className="nav-button" id="nav-button">
+            <i className="fa fa-bars"/>
+          </button>
+          <div className="nav-items">
+          <Link 
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-10}
+            duration={400}>
+              <div className="nav-item" onClick={this.dropdown}>About Me</div>
+          </Link>
+          <Link 
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-10}
+            duration={400}>
+              <div className="nav-item" onClick={this.dropdown}>Skills</div>
+          </Link>
+          <Link 
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-10}
+            duration={400}>
+              <div className="nav-item" onClick={this.dropdown}>Projects</div>
+          </Link>
+          <Link 
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-10}
+            duration={400}>
+              <div className="nav-item" onClick={this.dropdown}>Contact</div>
+          </Link>
+          </div>
+          <div className="nav-button"></div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Navbar;

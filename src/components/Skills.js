@@ -2,7 +2,7 @@ import React from 'react';
 
 function Skills() {
   return(
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <h1>Front-end</h1>
       <div className="skills-category">
         <div className="skills-card">
