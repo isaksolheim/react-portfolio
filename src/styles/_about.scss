@@ -6,4 +6,9 @@
   h1 {
     margin: 0;
   }
+
+  @include desktop {
+    margin: 0 auto;
+    max-width: 800px;
+  }
 }

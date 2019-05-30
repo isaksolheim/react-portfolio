@@ -1,6 +1,21 @@
 .contact-container {
   padding: 10px;
 
+  .email {
+    text-align: center;
+    font-size: 20px;
+
+    a {
+      text-decoration: none;
+      color: color(primary);
+    }
+  }
+
+  @include desktop {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
   h1 {
     margin-bottom: 0;
   }

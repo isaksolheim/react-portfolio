@@ -13,6 +13,12 @@ function Contact() {
         
         <input type="submit" value="Send" />
       </form> 
+      <br />
+      <br />
+      <div className="email">
+        <p>My Email Adress:</p>
+        <a href="mailto:isak.m.h.s@gmail.com"><p><strong>isak.m.h.s@gmail.com</strong></p></a>
+      </div>
     </div>
   );
 }

@@ -21,7 +21,6 @@ class Navbar extends React.Component {
     return(
       <div className="navbar-container" id="home">
         <div className="navbar" id="navbar">
-          <img src="logo-t.png" alt="logo" className="nav-logo" />
           <button onClick={this.dropdown} className="nav-button" id="nav-button">
             <i className="fa fa-bars fa-2x"/>
           </button>

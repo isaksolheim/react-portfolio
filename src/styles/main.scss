@@ -17,6 +17,12 @@ $colors: (
   @return map-get($colors, $color-name);
 }
 
+@mixin desktop {
+  @media (min-width: 840px) {
+    @content;
+  }
+}
+
 span {
   display: inline-block;
   width: 80px;
