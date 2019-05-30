@@ -17,6 +17,13 @@ $colors: (
   @return map-get($colors, $color-name);
 }
 
+span {
+  display: inline-block;
+  width: 80px;
+  height: 5px;
+  background-color: color(primary-light);
+}
+
 //@import '../styles/xxx';
 @import '../styles/landing';
 @import '../styles/about';
