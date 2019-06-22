@@ -22,15 +22,24 @@
   }
 
   h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
     margin: 0;
   }
 
   h2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
     margin: 0;
   }
 
   .skills-category {
     .skills-card {
+      img {
+        width: 100%;
+      }
       display: inline-block;
       margin: 10px;
       margin-top: 20px;
@@ -43,6 +52,17 @@
       .skills-card-text {
         font-size: 15px;
       }
+    }
+    .skills-card:hover {
+      z-index: 2;
+      -webkit-transition: all 200ms ease-in;
+      -webkit-transform: scale(1.05);
+      -ms-transition: all 200ms ease-in;
+      -ms-transform: scale(1.05);   
+      -moz-transition: all 200ms ease-in;
+      -moz-transform: scale(1.05);
+      transition: all 200ms ease-in;
+      transform: scale(1.05);
     }
   }
 }

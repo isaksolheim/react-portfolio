@@ -61,6 +61,9 @@ class Navbar extends React.Component {
             duration={400}>
               <div className="nav-item" onClick={this.dropdown}>Contact</div>
           </Link>
+          <a href="https://github.com/wickdeeb" target="_blank" rel="noopener noreferrer">
+            <div className="nav-item"><i className="fab fa-github"></i></div>
+          </a>
           </div>
           <div className="nav-button"></div>
         </div>

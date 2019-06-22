@@ -3,7 +3,7 @@ import React from 'react';
 function Skills() {
   return(
     <div className="skills-container" id="skills">
-      <div id="parallax">
+      {/*<div id="parallax">*/}
         <h1>Skills</h1>
         <span />
         <br />
@@ -11,45 +11,53 @@ function Skills() {
         <h2>Front-end</h2>
         <div className="skills-category">
           <div className="skills-card">
-            <i className="fab fa-js fa-4x" />
+            <img src={'./images/javascript.png'} alt="javscript" />
             <p className="skills-card-text">JavaScript</p>
           </div>
           <div className="skills-card">
-            <i className="fab fa-react fa-4x" />
+            <img src={'./images/react.png'} alt="react" />
             <p className="skills-card-text">React</p>
           </div>
           <div className="skills-card">
-            <i className="fab fa-html5 fa-4x" />
+            <img src={'./images/redux.png'} alt="redux" />
+            <p className="skills-card-text">Redux</p>
+          </div>
+          <div className="skills-card">
+            <img src={'./images/html5.png'} alt="html5" />
             <p className="skills-card-text">HTML5</p>
           </div>
           <div className="skills-card">
-            <i className="fab fa-css3-alt fa-4x" />
+            <img src={'./images/css3.png'} alt="css3" />
             <p className="skills-card-text">CSS3</p>
           </div>
           <div className="skills-card">
-            <i className="fab fa-sass fa-4x" />
+            <img src={'./images/sass.png'} alt="sass" />
             <p className="skills-card-text">Sass</p>
+          </div>
+          <div className="skills-card">
+            <img src={'./images/bootstrap.png'} alt="bootstrap" />
+            <p className="skills-card-text">Bootstrap</p>
           </div>
         </div>
         <h2>Back-end</h2>
         <div className="skills-category">
           <div className="skills-card">
-            <i className="fab fa-python fa-4x" />
+            <img src={'./images/python.png'} alt="python" />
             <p className="skills-card-text">Python</p>
           </div>
           <div className="skills-card">
-            <i className="fas fa-fire fa-4x" />
+            <img src={'./images/firebase.png'} alt="firebase" />
             <p className="skills-card-text">Firebase</p>
           </div>
         </div>
         <h2>Version control</h2>
         <div className="skills-category">
           <div className="skills-card">
-            <i className="fab fa-git fa-4x" />
+            <img src={'./images/git.png'} alt="git" />
             <p className="skills-card-text">Git</p>
           </div>
         </div>
-      </div>
+      {/*</div>*/}
     </div>
   );
 }

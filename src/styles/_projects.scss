@@ -2,21 +2,49 @@
   text-align: center;
   margin-top: 60px;
   h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
     margin-bottom: 0;
   }
   .project-card {
-    margin: 0 auto;
+    display: inline-block;
+    margin: 20px;
     margin-bottom: 20px;
     //padding: 20px;
     border-radius: 5px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .2); 
     width: 270px;
+    @include desktop {
+      width: 360px;
+    }
 
     img {
       width: 100%;
     }
 
+    h2 {
+      padding-top: 20px;
+      font-family: 'Fjalla One', sans-serif;
+      text-transform: uppercase;
+      font-weight: 100;
+    }
+
+    .tech {
+      border-radius: 2px;
+      border: 1px solid #333;
+      background-color: #f1f1f1;
+      color: #333;
+      padding: 1px 2px;
+      display: inline-block;
+      margin: 5px;
+      cursor: default;
+    }
+
     h4 {
+      font-family: 'Fjalla One', sans-serif;
+      text-transform: uppercase;
+      font-weight: 100;
       margin: 0px;
     }
 
@@ -27,15 +55,19 @@
     }
 
     .project-button {
+      font-family: 'Fjalla One', sans-serif;
+      text-transform: uppercase;
+      font-weight: 100;
       display: inline-block;
+      color: white;
       width: 100px;
       background-color: color(primary);
-      color: #fff;
-      height: 30px;
-      margin: 5px;
-      border-radius: 4px;
+      border-radius: 8px;
+      padding: 5px 10px;
+      margin: 2px;
       cursor: pointer;
       transition: 0.3s all;
+      font-size: 20px;
     }
 
     .project-button:hover {

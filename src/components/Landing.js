@@ -4,7 +4,7 @@ import React from 'react';
 function Landing() {
   return(
     <div className="landing-container" id="landing">
-      <div id="parallax">
+      {/*<div id="parallax">*/}
         <div className="landing-items">
           <div className="landing-name">
             Isak Solheim
@@ -24,7 +24,7 @@ function Landing() {
           </Link>
           */}
         </div>
-      </div>
+      {/*</div>*/}
     </div>
   );
 }

@@ -6,8 +6,10 @@ function About() {
       <h1>About Me</h1>
       <span />
       <div className="about-text">
-        Hi. My name is Isak, and I am a developer. I have been programming
-        since 2013, and I've more recently found a love for front-end development.
+        Hi. My name is Isak, and I am a developer from Norway.
+        <br /><br /> 
+        I wrote my first line
+        of code in 2013, and I've more recently found a love for front-end development.
         I love learning about new technologies, and improving as a developer.
         <br />
         <br />
