@@ -24,11 +24,13 @@
     align-items: center;
     .landing-name {
       font-size: 9vh;
+      cursor: default;
     }
     .landing-undertitle {
       padding: 20px;
       font-size: 4vh;
       color: color(primary);
+      cursor: default;
     }
     .landing-button {
       font-size: 20px;

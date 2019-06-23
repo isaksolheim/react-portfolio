@@ -9,6 +9,12 @@
     font-family: 'Fjalla One', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
+    cursor: default;
+    transition: 0.5s all;
+  }
+
+  h1:hover {
+    color: color(primary);
   }
 
   @include desktop {
