@@ -37,10 +37,10 @@ function Projects() {
           <div className="tech">React</div>
           <div className="tech">React-Router</div>
           <div className="tech">Redux</div>
-          <div className="tech">Sass</div>
+          <div className="tech">Bootstrap</div>
           <div className="buttons">
-            <div className="project-button">View Site</div>
-            <div className="project-button">Github</div>
+            <a href="https://briller-5f4fd.firebaseapp.com/"><div className="project-button">View Site</div></a>
+            <a href="https://github.com/wickdeeb/100briller"><div className="project-button">Github</div></a>
           </div>
         </div>
         <div className="project-card">
