@@ -39,7 +39,7 @@ function Projects() {
           <div className="tech">Redux</div>
           <div className="tech">Bootstrap</div>
           <div className="buttons">
-            <a href="https://briller-5f4fd.firebaseapp.com/"><div className="project-button">View Site</div></a>
+            <a href="https://www.100briller.xyz/"><div className="project-button">View Site</div></a>
             <a href="https://github.com/wickdeeb/100briller"><div className="project-button">Github</div></a>
           </div>
         </div>
@@ -51,7 +51,7 @@ function Projects() {
           <div className="tech">fullpage.js</div>
           <div className="tech">Sass</div>
           <div className="buttons">
-            <a href="https://adidas-team.firebaseapp.com/"><div className="project-button">View Site</div></a>
+            <a href="https://www.adidasteam.xyz/"><div className="project-button">View Site</div></a>
             <a href="https://github.com/wickdeeb/adidas-skateboarding"><div className="project-button">Github</div></a>
           </div>
         </div>

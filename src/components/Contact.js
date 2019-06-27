@@ -4,7 +4,7 @@ function Contact() {
   return(
     <div className="contact-container" id="contact">
       <h1 id="title">Contact</h1>
-      <form action="https://formspree.io/spamisak@gmail.com" method="POST">
+      <form action="https://formspree.io/isak.m.h.s@gmail.com" method="POST">
         <label>Email</label>
         <input type="email" name="_replyto" placeholder="your@email.com" />
 
