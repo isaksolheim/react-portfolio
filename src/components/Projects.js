@@ -44,14 +44,15 @@ function Projects() {
           </div>
         </div>
         <div className="project-card">
-          <h2>Realestate Website</h2>
-          <img src={'./images/realestate.png'} alt="realestate" />
+          <h2>Adidas Skateboarding Team</h2>
+          <img src={'./images/adidasteam.png'} alt="adidas team" />
           <div className="tech">React</div>
-          <div className="tech">React-Router</div>
+          <div className="tech">Animate.css</div>
+          <div className="tech">fullpage.js</div>
           <div className="tech">Sass</div>
           <div className="buttons">
-            <div className="project-button">View Site</div>
-            <div className="project-button">Github</div>
+            <a href="https://adidas-team.firebaseapp.com/"><div className="project-button">View Site</div></a>
+            <a href="https://github.com/wickdeeb/adidas-skateboarding"><div className="project-button">Github</div></a>
           </div>
         </div>
       </div>
