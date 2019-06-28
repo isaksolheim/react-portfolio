@@ -8,14 +8,15 @@ function Projects() {
       <br />
       <div>
         <div className="project-card">
-          <h2>Programming Blog</h2>
-          <img src={'./images/wickdeeb.png'} alt="wickdeeb" />
+          <h2>Ecommerce Website</h2>
+          <img src={'./images/100briller.png'} alt="100briller" />
           <div className="tech">React</div>
           <div className="tech">React-Router</div>
-          <div className="tech">Sass</div>
+          <div className="tech">Redux</div>
+          <div className="tech">Bootstrap</div>
           <div className="buttons">
-            <a href="https://wickdeeb.com"><div className="project-button">View Site</div></a>
-            <a href="https://github.com/wickdeeb/wickdeeb"><div className="project-button">Github</div></a>
+            <a href="https://www.100briller.xyz/"><div className="project-button">View Site</div></a>
+            <a href="https://github.com/wickdeeb/100briller"><div className="project-button">Github</div></a>
           </div>
         </div>
         <div className="project-card">
@@ -32,15 +33,15 @@ function Projects() {
       </div>
       <div>
         <div className="project-card">
-          <h2>Ecommerce Website</h2>
-          <img src={'./images/100briller.png'} alt="100briller" />
+          <h2>Programming Blog</h2>
+          <img src={'./images/wickdeeb.png'} alt="wickdeeb" />
           <div className="tech">React</div>
           <div className="tech">React-Router</div>
-          <div className="tech">Redux</div>
+          <div className="tech">Sass</div>
           <div className="tech">Bootstrap</div>
           <div className="buttons">
-            <a href="https://www.100briller.xyz/"><div className="project-button">View Site</div></a>
-            <a href="https://github.com/wickdeeb/100briller"><div className="project-button">Github</div></a>
+            <a href="https://wickdeeb.com"><div className="project-button">View Site</div></a>
+            <a href="https://github.com/wickdeeb/wickdeeb"><div className="project-button">Github</div></a>
           </div>
         </div>
         <div className="project-card">
