@@ -18,6 +18,7 @@ function Contact() {
       <div className="email">
         <p>My Email Adress:</p>
         <a href="mailto:isak.m.h.s@gmail.com"><p><strong>isak.m.h.s@gmail.com</strong></p></a>
+        <p><a href={'Isak-Solheim-Front-End-CV.pdf'} download>My Resume</a></p>
       </div>
     </div>
   );

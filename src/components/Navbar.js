@@ -64,6 +64,9 @@ class Navbar extends React.Component {
           <a href="https://github.com/wickdeeb" target="_blank" rel="noopener noreferrer">
             <div className="nav-item"><i className="fab fa-github"></i></div>
           </a>
+          <a href={'Isak-Solheim-Front-End-CV.pdf'} download>
+            <div className="nav-item"><i className="fas fa-file-alt"></i></div>
+          </a>
           </div>
           <div className="nav-button"></div>
         </div>
