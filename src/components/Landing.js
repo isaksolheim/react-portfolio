@@ -4,7 +4,21 @@ import React from 'react';
 function Landing() {
   return(
     <div className="landing-container" id="landing">
-      {/*<div id="parallax">*/}
+      {/*
+      <div id="parallax">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      */}
         <div className="landing-items">
           <div className="landing-name">
             Isak Solheim
@@ -12,18 +26,6 @@ function Landing() {
           <div className="landing-undertitle">
             Web Developer
           </div>
-          
-          {/*
-          <Link 
-            activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-10}
-            duration={400}>
-              <div className="landing-button">View Projects</div>
-          </Link>
-          */}
         </div>
       {/*</div>*/}
     </div>
