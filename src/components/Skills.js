@@ -50,14 +50,21 @@ function Skills() {
             <p className="skills-card-text">Firebase</p>
           </div>
         </div>
-        <h2>Version control</h2>
+        <h2>Other</h2>
         <div className="skills-category">
           <div className="skills-card">
             <img src={'./images/git.png'} alt="git" />
             <p className="skills-card-text">Git</p>
           </div>
+          <div className="skills-card">
+            <img src={'./images/photoshop.png'} alt="photoshop" />
+            <p className="skills-card-text">Photoshop</p>
+          </div>
+          <div className="skills-card">
+            <img src={'./images/linux.png'} alt="tux" />
+            <p className="skills-card-text">Linux</p>
+          </div>
         </div>
-      {/*</div>*/}
     </div>
   );
 }
