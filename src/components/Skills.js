@@ -42,6 +42,14 @@ function Skills() {
         <h2>Back-end</h2>
         <div className="skills-category">
           <div className="skills-card">
+            <img src={'./images/mongodb.png'} alt="mongodb" />
+            <p className="skills-card-text">MongoDB</p>
+          </div>
+          <div className="skills-card">
+            <img src={'./images/nodejs.png'} alt="node" />
+            <p className="skills-card-text">Node</p>
+          </div>
+          <div className="skills-card">
             <img src={'./images/python.png'} alt="python" />
             <p className="skills-card-text">Python</p>
           </div>
