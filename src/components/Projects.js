@@ -8,6 +8,17 @@ function Projects() {
       <br />
       <div>
         <div className="project-card">
+          <h2>Pizza Resturant</h2>
+          <img src={'./images/tromsopizzeria.png'} alt="Tromsø Pizzeria" />
+          <div className="tech">React</div>
+          <div className="tech">React-Scroll</div>
+          <div className="tech">Materialize CSS</div>
+          <div className="buttons">
+            <a href="https://www.tromsopizzeria.no/"><div className="project-button">View Site</div></a>
+            <a href="https://github.com/wickdeeb/materialize-resturant"><div className="project-button">Github</div></a>
+          </div>
+        </div>
+        <div className="project-card">
           <h2>Ecommerce Website</h2>
           <img src={'./images/100briller.png'} alt="100briller" />
           <div className="tech">React</div>
